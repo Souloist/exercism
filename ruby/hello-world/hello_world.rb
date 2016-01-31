@@ -1,8 +1,7 @@
 class HelloWorld
-	def self.hello(name=0)
-		if name = 0
-			"Hello, World!"
-		end
-		"Hello, " + name + "!"
-	end
+
+  def self.hello(name = 'World') # so default input is "World"
+    "Hello, #{name}!"
+  end
+
 end
